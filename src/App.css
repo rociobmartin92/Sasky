@@ -1,0 +1,60 @@
+.App {
+  /* text-align: center; */
+}
+
+.logo {
+  margin-left: 6.5em;
+}
+.barra {
+  background-color: #e6e2d7;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  /* text-align: center; */
+  border-radius: 3.5em;
+}
+.buttons {
+  background-color: transparent;
+  font-family: "Playfair Display", serif;
+  margin-right: 2em;
+  margin-left: 2em;
+  border-color: transparent;
+  font-size: 0.8em;
+}
+
+/* colors: #e6c6b1  -  #e6e2d7 */
+
+.footer {
+  position: absolute;
+  padding-bottom: 3em;
+  bottom: 0em;
+  right: 0em;
+  padding-right: 3em;
+  font-family: "Playfair Display", serif;
+  font-size: 0.8em;
+}
+
+.whoAreBox {
+  width: 80%;
+  padding-left: 0.4%;
+}
+
+.hoverText {
+  font-family: "Playfair Display", serif;
+  font-size: 0.9em;
+  padding: 0.5em;
+}
+
+.hoverTextSec {
+  font-family: "Playfair Display", serif;
+  font-size: 0.9em;
+  padding: 0.5em;
+  margin-left: 2.5em;
+}
+
+.ulContact {
+  list-style-type: none;
+}
+
+.icon {
+  margin-top: 1em;
+}
