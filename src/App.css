@@ -48,7 +48,8 @@
   font-family: "Playfair Display", serif;
   font-size: 0.9em;
   padding: 0.5em;
-  margin-left: 2.5em;
+  margin-left: 3.5em;
+  margin-bottom: 2em;
 }
 
 .ulContact {
@@ -57,4 +58,16 @@
 
 .icon {
   margin-top: 1em;
+}
+
+.divImagesOurJob {
+  display: inline-block;
+}
+
+.buttonOurJob {
+  margin: 0%;
+  padding: 0%;
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: 2em;
 }
