@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   /* text-align: center; */
 }
@@ -25,12 +29,19 @@
 
 .footer {
   position: absolute;
-  padding-bottom: 3em;
+  padding-bottom: 1em;
   bottom: 0em;
   right: 0em;
   padding-right: 3em;
   font-family: "Playfair Display", serif;
   font-size: 0.8em;
+}
+
+.whoAreBoxFor {
+  width: 80%;
+  /* padding-left: 0.4%; */
+  text-align: center;
+  margin-top: 1em;
 }
 
 .whoAreBox {
@@ -42,6 +53,20 @@
   font-family: "Playfair Display", serif;
   font-size: 0.9em;
   padding: 0.5em;
+}
+
+.DevelperNote {
+  font-family: "Playfair Display", serif;
+  font-size: 0.8em;
+  margin-top: -1em;
+}
+
+.hoverTextFor {
+  font-family: "Playfair Display", serif;
+  font-size: 0.9em;
+  /* padding: 0.5em; */
+  /* margin-left: 3.5em; */
+  margin-bottom: 2em;
 }
 
 .hoverTextSec {
@@ -61,13 +86,57 @@
 }
 
 .divImagesOurJob {
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
 }
 
 .buttonOurJob {
-  margin: 0%;
-  padding: 0%;
+  margin-right: 1em;
+  margin-left: 1em;
   background-color: transparent;
   border-color: transparent;
-  margin-left: 2em;
+  /* margin-left: 2em; */
+  border-width: 0em;
+  padding: 0em;
+  /* margin-bottom: -0.5em; */
+  width: auto;
+  height: auto;
+}
+
+.buttonOurJob img {
+  margin: 0;
+  padding: 0;
+}
+
+.buttonOurJob:hover {
+  box-shadow: 10px 10px 53px 5px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: 10px 10px 53px 5px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 10px 10px 53px 5px rgba(0, 0, 0, 0.47);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+
+.mobileWebJobsButton {
+  height: 290 px;
+  width: 150 px;
+  border-width: 0em;
+  background-color: white;
+  margin-bottom: 2em;
 }

@@ -14,7 +14,7 @@ function App() {
 
   const logo = require("../src/assets/logo.png");
   return (
-    <div className="App">
+    <div className="App bg-red-500">
       <header>
         <div>
           <img className="logo" height={150} width={150} src={logo}></img>
